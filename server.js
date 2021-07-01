@@ -22,8 +22,5 @@ app.get('/api/tables', (req, res) => res.json(tables));
 app.get('/api/waitlist', (req, res) => res.json(waitlist));
 
 
-
-
-
 // Starts the server to begin listening
 app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));
